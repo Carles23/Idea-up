@@ -253,7 +253,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     -o-transition:.3s linear;
     transition: .3s linear;
 }
-.welcome-btn:hover{
+.welcome-btn{
     background: #0102fa;
 }
 /*.welcome-hero-txt*/
