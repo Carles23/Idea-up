@@ -39,15 +39,16 @@ font-family: 'Rufina', serif;
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
 }
-body{
-	font-family: 'Poppins', sans-serif;
-	font-size:16px;
-	color:#818998;
-    text-transform:initial;
-    max-width:1920px;
-    margin:0 auto;
-	overflow-x:hidden; 
-    
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #818998;
+    text-transform: initial;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+
+    /* Degradado azul corregido */
     background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
     background-attachment: fixed;
 }
