@@ -256,6 +256,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-btn:hover{
     background: #0102fa;
 }
+.apuntante_abajo {
+    font-size: 18px;
+    text-transform: initial;
+    color: #fff;
+    font-weight: 500;
+    max-width: 735px;
+    margin: 0 auto;
+}
 /*.welcome-hero-txt*/
 
 /*-------------------------------------
