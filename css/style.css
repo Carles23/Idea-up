@@ -151,11 +151,11 @@ nav.navbar.bootsnav {
 .navbar-brand {
     display: flex; /* Hace que el logo y el texto estén en la misma línea */
     align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espacio entre el logo y el texto */
 }
 
 .logo-soteria {
-    height: 50px; /* Ajusta el tamaño del logo (cámbialo según necesites) */
-    margin-right: 10px; /* Espacio entre el logo y el texto */
+    height: 50px; /* Ajusta el tamaño del logo */
 }
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 /*.navbar-brand*/
