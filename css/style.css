@@ -247,8 +247,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     display: inline-block;
     width: 230px;
     height: 60px;
-    background: #ffffff;
-    color: #000000;
+    background: #0102fa;
+    color: #ffffff;
     border-radius: 30px;
     margin-top: 55px;
     -webkit-transition: .3s linear; 
@@ -257,9 +257,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     -o-transition:.3s linear;
     transition: .3s linear;
 }
-.welcome-btn:hover{
-    background: #0102fa;
-}
+
 
 /*.welcome-hero-txt*/
 
