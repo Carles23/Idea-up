@@ -524,7 +524,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .about-soteria, .stay-safe {
     text-align: center;
     padding: 80px 20px;
-    background: #f8f9fb;
+    background: transparent !important;
 }
 
 .about-soteria h2, .stay-safe h2 {
@@ -532,6 +532,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     font-weight: 600;
     color: #001f3f;
     margin-bottom: 20px;
+    background: transparent !important;
 }
 
 .about-soteria p, .stay-safe p {
