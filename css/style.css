@@ -143,7 +143,7 @@ html, body {
     padding: 0;
     background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
     background-size: 100% calc(100vh + 10rem); /* Ajusta dinámicamente */
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 }
 body {
     min-height: 100vh; /* Asegura que el body ocupe al menos toda la pantalla */
