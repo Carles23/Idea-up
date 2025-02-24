@@ -530,14 +530,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .about-soteria h2, .stay-safe h2 {
     font-size: 36px;
     font-weight: 600;
-    color: #001f3f;
+    color: #ffffff;
     margin-bottom: 20px;
     background: transparent !important;
 }
 
 .about-soteria p, .stay-safe p {
     font-size: 18px;
-    color: #444a57;
+    color: #ffffff;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
