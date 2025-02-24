@@ -549,6 +549,69 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 
+/* NUEVA SECCIÓN DESPUÉS DE "MANTENTE SEGURO" */
+.new-section {
+    padding: 100px 0;
+}
+
+.new-section .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.new-section-img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.new-section-txt {
+    text-align: left;
+    padding: 20px;
+    color: #ffffff; /* Cambia si necesitas más contraste */
+}
+
+.new-section h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #ffffff; /* Ajusta para mejor visibilidad */
+}
+
+.new-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.new-section-btn {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    background: #0000ff; /* Azul brillante */
+    color: #ffffff;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.new-section-btn:hover {
+    background: #0000cc; /* Azul más oscuro */
+}
+
+@media (max-width: 768px) {
+    .new-section .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .new-section-txt {
+        text-align: center;
+    }
+}
 
 
 /*-------------------------------------
