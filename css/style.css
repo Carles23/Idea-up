@@ -128,23 +128,8 @@ html,body{height: 100%;}
 
 /*=============Style css=========*/
 /* Hacer todas las secciones transparentes */
-.about-soteria, 
-.stay-safe, 
-.new-section, 
-.new-cars, 
-.blog, 
-.contact {
-    background: transparent !important;
-}
-html, body {
-    min-height: 100vh; /* Asegura que el degradado cubra toda la pantalla */
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
-    background-size: 100% calc(100vh + 10rem); /* Ajusta dinámicamente */
-    background-repeat: no-repeat; 
-}
+
+
 body {
     min-height: 100vh; /* Asegura que el body ocupe al menos toda la pantalla */
     display: flex;
@@ -551,14 +536,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .about-soteria h2, .stay-safe h2 {
     font-size: 36px;
     font-weight: 600;
-    color: #ffffff;
+    color: #000c7a;
     margin-bottom: 20px;
     background: transparent !important;
 }
 
 .about-soteria p, .stay-safe p {
     font-size: 18px;
-    color: #ffffff;
+    color: #000000;
     max-width: 800px;
     margin: 0 auto;
     line-height: 1.8;
