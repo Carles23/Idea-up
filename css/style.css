@@ -127,6 +127,21 @@ html,body{height: 100%;}
 /* section-header */
 
 /*=============Style css=========*/
+/* Hacer todas las secciones transparentes */
+.about-soteria, 
+.stay-safe, 
+.new-section, 
+.new-cars, 
+.blog, 
+.contact {
+    background: transparent !important;
+}
+html {
+    background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
+    background-attachment: fixed;
+    min-height: 100%;
+    width: 100%;
+}
 
 
 /*-------------------------------------
