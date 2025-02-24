@@ -519,6 +519,36 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 /*owl carousel*/
 
+
+/* Sección Sobre Soteria */
+.about-soteria, .stay-safe {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f8f9fb;
+}
+
+.about-soteria h2, .stay-safe h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #001f3f;
+    margin-bottom: 20px;
+}
+
+.about-soteria p, .stay-safe p {
+    font-size: 18px;
+    color: #444a57;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+/* Espaciado entre secciones */
+.about-soteria {
+    margin-bottom: 50px;
+}
+
+
+
 /*-------------------------------------
         9. Brand
 --------------------------------------*/
