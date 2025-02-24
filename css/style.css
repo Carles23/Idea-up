@@ -49,9 +49,17 @@ body {
     overflow-x: hidden;
 
     /* Degradado azul corregido */
+
+}
+html {
     background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
     background-attachment: fixed;
 }
+
+body {
+    background: none !important;
+}
+
 
 a,a:hover,a:active,a:focus {
 	display:inline-block;
