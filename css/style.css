@@ -149,13 +149,16 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand span{display: inline-block;color:#4e4ffa;text-transform:capitalize;}
 
 .navbar-brand {
-    display: flex; /* Hace que el logo y el texto estén en la misma línea */
+    display: flex; /* Asegura que la imagen y el texto estén en línea */
     align-items: center; /* Alinea verticalmente */
-    gap: 10px; /* Espacio entre el logo y el texto */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    text-decoration: none; /* Evita el subrayado del enlace */
 }
 
 .logo-soteria {
     height: 50px; /* Ajusta el tamaño del logo */
+    display: inline-block; /* Asegura que se comporte como un elemento en línea */
+    vertical-align: middle; /* Alinea el logo verticalmente con el texto */
 }
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 /*.navbar-brand*/
