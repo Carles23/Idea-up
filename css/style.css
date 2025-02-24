@@ -372,22 +372,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .single-service-item:hover  p:before {background: #fff;}
 .single-service-item:hover{box-shadow: 0 12px 30px 0px rgba(0,1,193,.2);background: #4e4ffa;border: 1px solid #4e4ffa;}
 
-.about-soteria, .stay-safe, .extra-section, .new-cars {
-    background: transparent !important;
-}
-html {
-    background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
-    background-attachment: fixed;
-}
 
-body {
-    background: none !important;
-}
 /*-------------------------------------
         6. New-cars
 --------------------------------------*/
 .new-cars{
-    background: transparent !important;
+    background: #f8f9fb;
     padding:112px 0 120px;
 }
 .new-cars-content{padding-top:96px;}
