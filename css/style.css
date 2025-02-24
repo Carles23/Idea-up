@@ -142,9 +142,15 @@ html, body {
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
-    background-size: cover;
+    background-size: 100% 100vh; /* Extiende el fondo a la altura total de la pantalla */
+    background-repeat: no-repeat;
 }
 
+body {
+    min-height: 100vh; /* Asegura que el body ocupe al menos toda la pantalla */
+    display: flex;
+    flex-direction: column;
+}
 
 /*-------------------------------------
         2. Top-area
