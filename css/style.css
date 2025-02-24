@@ -47,8 +47,7 @@ body{
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
-    background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
-    background-attachment: fixed;
+
 }
 
 a,a:hover,a:active,a:focus {
@@ -88,7 +87,11 @@ ul li {
 select,input,textarea,button,.form-control{box-shadow:none;outline:0!important;}
 button {background: transparent;border: 0;font-size: 16px;text-transform: capitalize;}
 
-html,body{height: 100%;}
+html,body{
+    height: 100%;
+    background: linear-gradient(to bottom, #001f3f, #005f9e) !important;
+    background-attachment: fixed;
+}
 
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
