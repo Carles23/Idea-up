@@ -158,16 +158,21 @@ nav.navbar.bootsnav {
 }
 .navbar-header a.navbar-brand span{display: inline-block;color:#4e4ffa;text-transform:capitalize;}
 
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Espacio entre el logo y el texto */
+.navbar-header a.navbar-brand {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center; /* Esto centra verticalmente ambos elementos */
+    gap: 10px; /* Espacio entre el texto y la imagen */
+    padding: 10px 0; /* Reduce el padding para mantener todo dentro del navbar */
 }
 
 .navbar-brand img {
-    height: 40px; /* Ajusta el tamaño según lo necesites */
+    height: 40px; /* Ajusta según tu preferencia */
     width: auto;
+    display: inline-block;
+    vertical-align: middle;
 }
+
 .wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:hover,.wrap-sticky nav.navbar.bootsnav.sticked .navbar-header a.navbar-brand:focus {padding:30px 0px;}
 /*.navbar-brand*/
 
