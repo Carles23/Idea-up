@@ -153,7 +153,7 @@ nav.navbar.bootsnav {
     letter-spacing: 3px;
     font-family: Times, "Times New Roman", Georgia, serif;
     font-weight: 700;
-    padding: 60px 0px;
+    padding: 50px 0 !important;
     text-transform:uppercase;
 }
 .navbar-header a.navbar-brand span{display: inline-block;color:#4e4ffa;text-transform:capitalize;}
