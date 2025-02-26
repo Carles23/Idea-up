@@ -135,7 +135,10 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+body {
+    background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
+    background-attachment: fixed; /* Para que el fondo no se desplace */
+}
 /*-------------------------------------
         2. Top-area
 --------------------------------------*/
