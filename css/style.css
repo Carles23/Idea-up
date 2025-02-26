@@ -599,7 +599,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .new-section-txt-participa {
     color: #ffffff !important;
-    padding: 6px;
+    .new-section h2 {
+    font-size: 30px !important;
+    font-weight: 600 !important;
+    margin-bottom: 25px !important; /* Aumenta la separación */
+    }
 
 }   
 .new-section h2 {
