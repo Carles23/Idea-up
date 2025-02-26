@@ -665,7 +665,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         12. Contact
 --------------------------------------*/
 .contact {
-    background: #2a2d54;
+    background: transparent !important;
 }
 .footer-top {padding: 112px 0 72px;}
 
