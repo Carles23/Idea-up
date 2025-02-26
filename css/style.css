@@ -597,7 +597,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     padding: 20px;
     color: #ffffff; /* Cambia si necesitas más contraste */
 }
+.new-section-txt-participa {
+    color: #ffffff !important;
 
+}   
 .new-section h2 {
     font-size: 30px;
     font-weight: 600;
