@@ -672,7 +672,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     color: #d1d7e9;
 }
 /*.footer-logo*/
+.footer-link {
+    color: #ffffff; /* Color blanco */
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: bold;
+}
 
+.footer-link:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+    color: #4e9eff; /* Color azul claro en hover */
+}
 .single-footer-widget {margin-bottom: 40px;}
 .single-footer-widget h2 {
     font-size: 14px;
