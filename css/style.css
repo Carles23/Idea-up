@@ -54,7 +54,7 @@ body {
     flex-direction: column;
     
     /* Degradado azul oscuro como Symmetry Club */
-    background: linear-gradient(to bottom, #00113D 10%, #020B15 90%);
+    background: linear-gradient(to bottom, #001540 20%, #010A13 80%);
     background-attachment: fixed;
 }
 
