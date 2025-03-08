@@ -672,16 +672,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     color: #d1d7e9;
 }
 /*.footer-logo*/
-.footer-link {
-    color: #ffffff; /* Color blanco */
-    text-decoration: none; /* Quita el subrayado */
-    font-weight: bold;
-}
 
-.footer-link:hover {
-    text-decoration: underline; /* Subrayado al pasar el cursor */
-    color: #4e9eff; /* Color azul claro en hover */
-}
 .single-footer-widget {margin-bottom: 40px;}
 .single-footer-widget h2 {
     font-size: 14px;
@@ -765,6 +756,25 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .footer-social a i.fa-linkedin:hover {
     color: #0077b5; /* Color azul de LinkedIn cuando pasas el mouse */
 }
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaciado entre los elementos */
+}
+
+.footer-link {
+    color: #ffffff; /* Color blanco */
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Espacio entre el icono y el texto */
+}
+
+.footer-link i {
+    font-size: 18px; /* Ajusta el tamaño del icono */
+}
+
 /*===============================
     Scroll Top
 ===============================*/
