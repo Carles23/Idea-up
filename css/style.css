@@ -520,23 +520,34 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     height: auto;
 }
 
-.about-content {
+.stay-safe .row {
     display: flex;
-    align-items: center; /* Alinear verticalmente */
-    justify-content: center;
-    gap: 30px; /* Espacio entre imagen y texto */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between;
+    flex-wrap: wrap; /* Para que sea responsive */
 }
 
-.about-image img {
-    width: 300px; /* Ajusta el tamaño de la imagen */
+/* Ajustar la imagen a la izquierda */
+.image-column {
+    flex: 1;
+    text-align: left; /* Alinea la imagen a la izquierda */
+}
+
+.stay-safe-img {
+    max-width: 250px; /* Ajusta el tamaño de la imagen */
     height: auto;
-    border-radius: 10px; /* Opcional: bordes redondeados */
+    border-radius: 10px; /* Bordes redondeados */
 }
 
-.about-text {
-    max-width: 600px; /* Limita el ancho del texto */
+/* Ajustar el texto a la derecha */
+.text-column {
+    flex: 1;
+    padding-left: 20px; /* Espaciado entre la imagen y el texto */
+    text-align: left;
+    max-width: 600px; /* Controla el ancho del texto */
     color: #ffffff;
 }
+
 /* NUEVA SECCIÓN DESPUÉS DE "MANTENTE SEGURO" */
 
 
