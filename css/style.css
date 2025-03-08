@@ -520,31 +520,32 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     height: auto;
 }
 
-.stay-safe .row {
+/* Asegurar que "Sobre Soteria" tenga su propio diseño */
+.about-soteria .row {
     display: flex;
-    align-items: center; /* Centra verticalmente los elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
     justify-content: space-between;
-    flex-wrap: wrap; /* Para que sea responsive */
+    flex-wrap: wrap; /* Para hacerla responsive */
 }
 
-/* Ajustar la imagen a la izquierda */
-.image-column {
+/* Ajustar la imagen en la izquierda */
+.about-soteria .image-column {
     flex: 1;
-    text-align: left; /* Alinea la imagen a la izquierda */
+    text-align: left; /* La imagen a la izquierda */
 }
 
-.stay-safe-img {
-    max-width: 250px; /* Ajusta el tamaño de la imagen */
+.about-soteria .image-column img {
+    max-width: 250px; /* Ajustar el tamaño de la imagen */
     height: auto;
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 10px;
 }
 
-/* Ajustar el texto a la derecha */
-.text-column {
+/* Ajustar el texto en la derecha */
+.about-soteria .text-column {
     flex: 1;
     padding-left: 20px; /* Espaciado entre la imagen y el texto */
     text-align: left;
-    max-width: 600px; /* Controla el ancho del texto */
+    max-width: 600px;
     color: #ffffff;
 }
 
