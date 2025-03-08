@@ -535,7 +535,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 .about-soteria .image-column img {
-    max-width: 250px; /* Ajustar el tamaño de la imagen */
+    max-width: 300px; /* Ajustar el tamaño de la imagen */
     height: auto;
     border-radius: 10px;
 }
