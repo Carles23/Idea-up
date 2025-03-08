@@ -478,7 +478,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 .about-soteria h2, .stay-safe h2 {
-    font-size: 36px;
+    font-size: 33px;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 20px;
@@ -580,7 +580,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 .new-section-txt-participa {
     color: #ffffff !important;
-    font-size: 20px !important;
+    font-size: 33px !important;
     font-weight: 600 !important;
     margin-bottom: 25px !important; /* Aumenta la separación */
     
