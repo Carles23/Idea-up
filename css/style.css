@@ -496,7 +496,28 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .about-soteria {
     margin-bottom: 50px;
 }
+.stay-safe .row {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.text-column {
+    flex: 1;
+    padding-right: 20px; /* Espaciado entre el texto y la imagen */
+    text-align: left; /* Asegura que el texto quede a la izquierda */
+}
+
+.image-column {
+    flex: 1;
+    text-align: right; /* La imagen se alineará a la derecha */
+}
+
+.stay-safe-img {
+    max-width: 80%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
 
 /* NUEVA SECCIÓN DESPUÉS DE "MANTENTE SEGURO" */
 
