@@ -524,9 +524,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 .new-section .row {
     display: flex;
-    align-items: center; /* Centra verticalmente el texto con la imagen */
+    align-items: center; /* Centra verticalmente */
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 50px; /* Aumenta el espacio entre la imagen y el texto */
 }
 
 .new-section-img img {
@@ -535,6 +536,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     display: block;
     margin: auto; /* Centrar la imagen */
     border-radius: 10px; /* Bordes redondeados opcionales */
+    margin-right: 50px;
 }
 
 
