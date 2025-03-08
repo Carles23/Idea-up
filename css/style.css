@@ -520,6 +520,23 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     height: auto;
 }
 
+.about-content {
+    display: flex;
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center;
+    gap: 30px; /* Espacio entre imagen y texto */
+}
+
+.about-image img {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+
+.about-text {
+    max-width: 600px; /* Limita el ancho del texto */
+    color: #ffffff;
+}
 /* NUEVA SECCIÓN DESPUÉS DE "MANTENTE SEGURO" */
 
 
