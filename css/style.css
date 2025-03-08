@@ -524,8 +524,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 .new-section .row {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Centra verticalmente el texto con la imagen */
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
