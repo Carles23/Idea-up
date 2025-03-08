@@ -516,7 +516,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 .stay-safe-img {
-    max-width: 80%; /* Ajusta el tamaño de la imagen */
+    max-width: 70%; /* Ajusta el tamaño de la imagen */
     height: auto;
 }
 
@@ -535,7 +535,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 .about-soteria .image-column img {
-    max-width: 300px; /* Ajustar el tamaño de la imagen */
+    max-width: 70%; /* Ajustar el tamaño de la imagen */
     height: auto;
     border-radius: 10px;
 }
