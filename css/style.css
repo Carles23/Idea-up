@@ -774,7 +774,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .footer-link i {
     font-size: 10px; /* Ajusta el tamaño del icono */
 }
-
+.email-link {
+    font-size: 14px; /* Tamaño más pequeño */
+    font-weight: normal;
+}
 /*===============================
     Scroll Top
 ===============================*/
