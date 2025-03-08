@@ -536,7 +536,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     display: block;
     margin: auto; /* Centrar la imagen */
     border-radius: 10px; /* Bordes redondeados opcionales */
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 
