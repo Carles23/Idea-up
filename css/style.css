@@ -48,8 +48,14 @@ body {
     margin: 0 auto;
     overflow-x: hidden;
 
-    /* Degradado azul corregido */
-
+    /* Estilos para el fondo degradado */
+    min-height: 100vh; /* Asegura que el body ocupe toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    
+    /* Degradado azul oscuro como Symmetry Club */
+    background: linear-gradient(to bottom, #00113D, #020B15);
+    background-attachment: fixed; /* Para que el fondo no se desplace */
 }
 
 a,a:hover,a:active,a:focus {
@@ -89,7 +95,11 @@ ul li {
 select,input,textarea,button,
 button {background: transparent;border: 0;font-size: 16px;text-transform: capitalize;}
 
-html,body{height: 100%;}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.3s 0.3s ease; 
@@ -127,15 +137,6 @@ html,body{height: 100%;}
 /* Hacer todas las secciones transparentes */
 
 
-body {
-    min-height: 100vh; /* Asegura que el body ocupe al menos toda la pantalla */
-    display: flex;
-    flex-direction: column;
-}
-body {
-    background: linear-gradient(135deg, #001f3f 0%, #003366 100%);
-    background-attachment: fixed; /* Para que el fondo no se desplace */
-}
 /*-------------------------------------
         2. Top-area
 --------------------------------------*/
