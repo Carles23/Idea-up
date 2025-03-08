@@ -530,10 +530,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 }
 
 .new-section-img img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Si quieres bordes redondeados */
+    object-fit: cover; /* Recorta la imagen si es necesario */
 }
 
 .new-section-txt {
