@@ -778,6 +778,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     font-size: 14px; /* Tamaño más pequeño */
     font-weight: normal;
 }
+.footer-contact-social {
+    display: flex;
+    align-items: center;  /* Alinea verticalmente */
+    gap: 15px;  /* Espaciado entre Contacto y los iconos */
+}
+
+.footer-contact-social p {
+    margin: 0;  /* Evita que el párrafo tenga margen extra */
+    font-weight: bold;
+    color: #ffffff; /* Ajusta el color si es necesario */
+}
 /*===============================
     Scroll Top
 ===============================*/
