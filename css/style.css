@@ -524,31 +524,29 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 .new-section .row {
     display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: space-between;
+    align-items: center; /* Centra verticalmente el texto con la imagen */
+    justify-content: space-between; /* Mantiene la separación */
     flex-wrap: wrap;
-    gap: 50px; /* Aumenta el espacio entre la imagen y el texto */
+    gap: 80px; /* Aumenta el espacio entre la imagen y el texto */
 }
 
+/* Ajusta la imagen */
 .new-section-img img {
-    max-width: 80%; /* Ajusta este valor según lo que necesites */
-    height: auto; /* Mantiene la proporción */
+    max-width: 70%; /* Reduce el tamaño de la imagen */
+    height: auto;
     display: block;
-    margin: auto; /* Centrar la imagen */
-    border-radius: 10px; /* Bordes redondeados opcionales */
-    margin-left: 50px;
+    margin: auto;
+    border-radius: 10px;
 }
 
-
+/* Centra el texto verticalmente */
 .new-section-txt {
-    padding: 20px;
-    color: #ffffff; /* Cambia si necesitas más contraste */
- /* Centra el texto verticalmente */
-    min-height: 100%; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: center; /* Centra verticalmente */
+    min-height: 100%;
+    padding: 20px;
+    color: #ffffff;
 }
 .new-section-txt-participa {
     color: #ffffff !important;
