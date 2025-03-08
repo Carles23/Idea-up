@@ -541,12 +541,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
 
 .new-section-txt {
-    text-align: left;
     padding: 20px;
     color: #ffffff; /* Cambia si necesitas más contraste */
+ /* Centra el texto verticalmente */
+    min-height: 100%; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra el texto verticalmente */
+    justify-content: center;
 
 }
 .new-section-txt-participa {
