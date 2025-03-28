@@ -861,7 +861,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     .stay-safe-img,
     .about-soteria .image-column img,
     .new-section-img img {
-        max-width: 100% !important;
+        max-width: 60% !important;
+        height: auto;
+        margin: 0 auto;
     }
 
     .welcome-hero-txt h2 {
@@ -870,6 +872,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 
     .welcome-btn {
         width: 100%;
+        display: block;
+        margin: 20px auto 0 auto;
+    }
+
+    nav.navbar.bootsnav {
+        background-color: transparent !important;
     }
 
     nav.navbar.bootsnav ul.nav > li > a {
@@ -887,70 +895,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         text-align: center;
         padding: 10px 0 !important;
     }
-}
 
-@media (max-width: 768px) {
-    .stay-safe .row,
-    .about-soteria .row,
-    .new-section .row {
-        flex-direction: column;
-        text-align: center;
+    #stay-safe .image-column {
+        order: 1;
     }
 
-    .text-column,
-    .image-column {
-        padding: 0 !important;
-        text-align: center !important;
-    }
-
-    .about-soteria .text-column,
-    .about-soteria .image-column {
-        padding: 0 !important;
-        max-width: 100% !important;
-    }
-
-    .stay-safe-img,
-    .about-soteria .image-column img,
-    .new-section-img img {
-        max-width: 100% !important;
-    }
-
-    .welcome-hero-txt h2 {
-        font-size: 32px;
-    }
-
-    .welcome-btn {
-        width: 100%;
-    }
-
-    nav.navbar.bootsnav ul.nav > li > a {
-        padding: 15px 10px;
-        display: block;
-    }
-
-    .navbar-collapse {
-        background-color: rgba(0, 0, 0, 0.9);
-        padding: 10px;
-    }
-
-    .navbar-nav > li > a {
-        color: white !important;
-        text-align: center;
-        padding: 10px 0 !important;
+    #stay-safe .text-column {
+        order: 2;
     }
 }
-.stay-safe-img,
-.about-soteria .image-column img,
-.new-section-img img {
-    max-width: 60% !important;
-    height: auto;
-    margin: 0 auto;
-}
-#stay-safe .image-column {
-    order: 1;
-}
 
-#stay-safe .text-column {
-    order: 2;
-}
 /*========================Thank you=================
