@@ -946,5 +946,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     height: auto;
     margin: 0 auto;
 }
+#stay-safe .image-column {
+    order: 1;
+}
 
+#stay-safe .text-column {
+    order: 2;
+}
 /*========================Thank you=================
