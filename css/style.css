@@ -838,7 +838,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
 @media (max-width: 768px) {
     .stay-safe .row,
     .about-soteria .row,
@@ -889,3 +888,57 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         padding: 10px 0 !important;
     }
 }
+
+@media (max-width: 768px) {
+    .stay-safe .row,
+    .about-soteria .row,
+    .new-section .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .text-column,
+    .image-column {
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    .about-soteria .text-column,
+    .about-soteria .image-column {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .stay-safe-img,
+    .about-soteria .image-column img,
+    .new-section-img img {
+        max-width: 100% !important;
+    }
+
+    .welcome-hero-txt h2 {
+        font-size: 32px;
+    }
+
+    .welcome-btn {
+        width: 100%;
+    }
+
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 15px 10px;
+        display: block;
+    }
+
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 10px;
+    }
+
+    .navbar-nav > li > a {
+        color: white !important;
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+}
+
+
+/*========================Thank you=================
