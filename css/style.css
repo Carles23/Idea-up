@@ -939,6 +939,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
         padding: 10px 0 !important;
     }
 }
-
+.stay-safe-img,
+.about-soteria .image-column img,
+.new-section-img img {
+    max-width: 60% !important;
+    height: auto;
+    margin: 0 auto;
+}
 
 /*========================Thank you=================
